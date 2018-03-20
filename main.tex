@@ -1,0 +1,71 @@
+\documentclass[10pt,pdf,hyperref={unicode}]{beamer}
+\usetheme{Frankfurt}
+\documentclass{article}
+\usepackage{soul}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\graphicspath{ {images/} }
+\makeatletter
+\defbeamertemplate*{footline}{my theme}{
+	\leavevmode%
+	\hbox{%
+	\begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+		\usebeamerfont{author in head/foot}%
+		\insertauthor~~\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+	\end{beamercolorbox}%
+	\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+		\usebeamerfont{title in head/foot}\inserttitle
+	\end{beamercolorbox}%
+	\begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+		\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+		\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+	\end{beamercolorbox}}%
+}
+\makeatother
+\title{ClearNews}
+\author{ФИВТ МФТИ}
+\date{March 2018}
+
+\begin{document}
+
+\maketitle
+\begin{frame}\frametitle{План}
+\begin{enumerate}
+    \item Какую проблему пользователей будем решать?
+    \item Scope проекта
+    \item Технологии
+    \item Наше решение
+\end{enumerate}
+\end{frame}
+\begin{frame}{Постановка задачи}
+Сегодня для многих \textbf{известных личностей}, в особенности, для \textit{политиков}, очень важно поддерживать имидж. \\Наш проект может помочь в проведении успешных PR-кампаний посредством составления \textbf{профиля личности}.
+\end{frame}
+
+\begin{frame}{Scope}
+Кто шарит, напишите что тут
+\end{frame}
+\begin{frame}{Технологии}
+\begin{enumerate}
+    \item ML
+    \begin{enumerate}
+        \item PyTorch для RNN
+        \item Natasha
+    \end{enumerate}
+    \item Backend
+        \begin{enumerate}
+            \item бекэндщики запилите мне стек технологий
+        \end{enumerate}
+    \item fetch
+        \begin{enumerate}
+            \item ну вы поняли
+        \end{enumerate}
+    \item что еще?
+\end{enumerate}
+\end{frame}
+\begin{frame}{Наше решение}
+тут надо картинки, да?
+    
+\end{frame}
+\end{document}
